@@ -151,6 +151,17 @@ iframe{
 }
 
 
+iframe{
+    width: 60%;
+    height: 500px;
+    margin-bottom: 100px;
+    background: url(img/Tapete\ Em\ Lona\ Madeira\ Escura\ -\ Fabrika\ De\ Festa.jpeg);
+    padding: 20px;
+    border-radius: 4vh;
+}
+
+
+
 @media screen and (max-width:768px) {
     .container {
         margin: auto;
@@ -161,4 +172,14 @@ iframe{
     .header{
         display: none;
     }
+    
+iframe{
+    width:300px;
+    height: 400px;
+    margin-bottom: 100px;
+    background: url(img/Tapete\ Em\ Lona\ Madeira\ Escura\ -\ Fabrika\ De\ Festa.jpeg);
+   
+    
+}
+
 }
