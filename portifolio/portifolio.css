@@ -43,8 +43,6 @@ img {
 .container {
     margin: auto;
     margin-top: 40px;
-   
-    max-width: 40%;
 }
 
 img {
@@ -70,6 +68,9 @@ img {
 }
 
 
+.title-title{
+    margin: 10px 50px auto;
+}
 h1 {
     text-align: center;
     margin: 30px auto;
@@ -90,8 +91,15 @@ a {
     color: black;
 }
 
-p {
+.p-especial {
     text-align: center;
+    margin-bottom: 100px;
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+    max-width: 500px;
+    margin: auto;
 }
 
 i {
@@ -160,6 +168,72 @@ iframe{
     border-radius: 4vh;
 }
 
+a{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.text-title{
+    background-color: rgb(220, 54, 54);
+}
+
+
+
+h1 a {
+    text-decoration: none;
+    color: white;
+    animation: colorChange 1s infinite;
+    
+}
+
+@keyframes colorChange {
+    0% { color: rgb(204, 15, 15); }
+    100% { color: rgb(62, 17, 178); }
+}
+
+
+
+.parte-dois-h1{
+ 
+    text-align: center;
+    margin: 30px auto;
+    max-width: 300px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.652);
+    padding-bottom: 10px;
+}
+
+.parte-dois-p{
+    max-width: 600px;
+    margin: 30px auto;
+    font-size: 1.3rem;
+}
+
+.div-central{
+ margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:768px) {
@@ -173,13 +247,17 @@ iframe{
         display: none;
     }
     
-iframe{
-    width:300px;
-    height: 400px;
-    margin-bottom: 100px;
-    background: url(img/Tapete\ Em\ Lona\ Madeira\ Escura\ -\ Fabrika\ De\ Festa.jpeg);
-   
-    
-}
+
 
 }
+
+
+
+
+
+
+
+
+
+
+

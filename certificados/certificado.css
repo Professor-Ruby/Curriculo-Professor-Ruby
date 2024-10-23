@@ -40,7 +40,7 @@ body {
 
 a {
     color: rgb(0, 0, 0);
-    font-size: 1                1rem;
+    font-size: 1.4rem;
 
 
 }
@@ -122,4 +122,13 @@ hr {
         margin: 20px auto;
         border: 1px solid rgba(0, 0, 0, 0.244);
     }
+
+
+    a {
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+    
+    
+    }
+    
 }
