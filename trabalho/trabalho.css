@@ -34,18 +34,18 @@ body {
 a {
     color: rgb(0, 0, 0);
     font-size: 1.3rem;
+  
+    border-bottom: 2px solid blue;
+    padding-bottom: 1px;
 
 
 }
 
 a:hover {
     background-color: rgba(128, 128, 128, 0.389);
-    padding: 10px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-radius: 1vh;
-    transition: 1s;
-    color: rgb(38, 66, 189);
+    color: red;
+ 
+  
 
 }
 
