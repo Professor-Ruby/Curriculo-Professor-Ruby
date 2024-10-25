@@ -14,12 +14,12 @@
 ul {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgba(18, 18, 18, 0.885);
+    background-color: rgba(219, 12, 12, 0.885);
     border-bottom: 2px solid black;
     background-size: cover;
     margin: 0;
     padding: 0;
-    height: 60px;
+    height: 70px;
     width: 100%;
 
 }
@@ -79,11 +79,7 @@ a {
     font-style: normal;
 }
 
-.nome-principal-h1:hover {
-    border-bottom: 2px solid rgb(201, 51, 51);
-    border-top: 0.5px solid rgb(201, 51, 51);
-    transition: 1s;
-}
+
 
 .objetivo-h3 {
     max-width: 130px;
@@ -92,9 +88,9 @@ a {
 }
 
 .objetivo-h3:hover {
-    border-top: 1px solid black;
+
     border-bottom: 1px solid black;
-    background-color: rgb(166, 164, 164);
+   
     transition: 0.8s;
 }
 
@@ -121,9 +117,8 @@ a {
 }
 
 .habilidades-h3:hover {
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
-    background-color: rgb(166, 164, 164);
+  
     transition: 0.8s;
 }
 
@@ -148,9 +143,9 @@ a {
 }
 
 .formacao-h3:hover {
-    border-top: 1px solid black;
+   
     border-bottom: 1px solid black;
-    background-color: rgb(166, 164, 164);
+  
     transition: 0.8s;
 
 }
